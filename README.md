@@ -1,1 +1,196 @@
-# Moonlight
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <style>
+    body{
+      height: 100vh;
+      background: linear-gradient(to bottom, #000000, #1a1a40, #1a1a40, #2d3a75);
+
+      }
+      .sinarbulan{
+        width: 600px;
+        height: 600px;
+        border-radius: 300px;
+        background-color: ghostwhite;
+        filter: blur(150px);
+        position: absolute;
+        top: 27%;
+        left: 18.7%;
+      }
+      .bulan{
+        width: 400px;
+        height: 400px;
+        border-radius: 300px;
+        background-color: #EFEFEF;
+        position: absolute;
+        top: 33%;
+        left: 30%;
+      }
+      .effect{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #E3E3E3;
+        position: absolute;
+        top: 36%;
+        left: 37%;
+      }
+      .satu{
+        top: 48.5%;
+        left: 61.5%;
+      }
+      .effect2{
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        background-color: #E3E3E3;
+        position: absolute;
+        top: 38.5%;
+        left: 35%;
+      }
+      .dua {
+        top: 51.5%;
+        left: 59%;
+      }
+      .pita{
+        font-size: 100px;
+        position: absolute;
+        top: 34%;
+        left:31%;
+      }
+      .star {
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        width: 2px;
+        height: 2px;
+        background-color: white;
+        border-radius: 50%;
+        animation: twinkle 1.5s infinite ease-in-out;
+        opacity: 0; /* Bintang mulai dengan opasitas 0 */
+        
+        }   
+
+    /* Membuat animasi untuk efek berkedip */
+      @keyframes twinkle {
+        0% {
+            opacity: 0; /* Bintang mulai tidak terlihat */
+          }
+        50% {
+            opacity: 1; /* Bintang muncul */
+          }
+        100% {
+            opacity: 0; /* Bintang menghilang */
+          }
+      }
+
+    /* Mengatur posisi acak bintang */
+      .star:nth-child(odd) {
+        width: 2.5px;
+        height: 2.5px;
+        animation-duration: 1.5s;
+        animation-delay: 0.5s;
+        }
+
+      .star:nth-child(even) {
+        animation-duration: 2.5s;
+        animation-delay: 1s;
+        }
+        
+      .text1{
+        font-size: 20px;
+        font-style: italic;
+        color: black;
+        position: absolute;
+        top: 55%;
+        left: 60%;
+      }  
+      .text2 {
+        color: white;
+        font-size: 82px;
+        font-family: "Allura", cursive;
+        font-style: bold;
+        position: absolute;
+        top: 80%;
+        left: 8%;
+      }
+      .two{
+        top: 83.5%;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="sinarbulan"></div>
+  <div class="bulan"></div>
+  <div class="effect"></div>
+  <div class="effect satu"></div>
+  <div class="effect2"></div>
+  <div class="effect2 dua"></div>
+  <div class="pita">🎀</div>
+  <div class="star" style="top: 20%; left: 10%"></div>
+  <div class="star" style="top: 60%; left: 30%"></div>
+  <div class="star" style="top: 10%; left: 70%"></div>
+  <div class="star" style="top: 80%; left: 50%"></div>
+  <div class="star" style="top: 40%; left: 90%"></div>
+  <div class="star" style="top: 90%; left: 15%"></div>
+  <div class="star" style="top: 30%; left: 80%"></div>
+  <div class="star" style="top: 50%; left: 50%"></div>
+  <div class="star" style="top: 70%; left: 40%"></div>
+  <div class="star" style="top: 20%; left: 20%"></div>
+  <div class="star" style="top: 10%; left: 5%"></div>
+  <div class="star" style="top: 30%; left: 15%"></div>
+  <div class="star" style="top: 5%; left: 35%"></div>
+  <div class="star" style="top: 40%; left: 25%"></div>
+  <div class="star" style="top: 20%; left: 45%"></div>
+  <div class="star" style="top: 45%; left: 7.5%"></div>
+  <div class="star" style="top: 15%; left: 40%"></div>
+  <div class="star" style="top: 25%; left: 25%"></div>
+  <div class="star" style="top: 35%; left: 20%"></div>
+  <div class="star" style="top: 10%; left: 10%"></div>
+  <div class="star" style="top: 20%; left: 10%"></div>
+  <div class="star" style="top: 65%; left: 70%"></div>
+  <div class="star" style="top: 15%; left: 80%"></div>
+  <div class="star" style="top: 85%; left: 90%"></div>
+  <div class="star" style="top: 45%; left: 90%"></div>
+  <div class="star" style="top: 90%; left: 100%"></div>
+  <div class="star" style="top: 35%; left: 95%"></div>
+  <div class="star" style="top: 55%; left: 85%"></div>
+  <div class="star" style="top: 75%; left: 90%"></div>
+  <div class="star" style="top: 25%; left: 95%"></div>
+  <div class="text1">*anggap aja ini bulan</div>
+  <div class="text2">The Moon is Beautiful, </div>
+  <div class="text2 two">Isn't it? </div>
+  
+  <script src="main.js">
+    // Membuat banyak bintang secara dinamis
+    function createStars(num) {
+      for (let i = 0; i < num; i++) {
+        let star = document.createElement("div");
+        star.classList.add("star");
+        star.style.top = `${Math.random() * 1000}%`;
+        star.style.left = `${Math.random() * 100}%`;
+        document.body.appendChild(star);
+      }
+    }
+    
+    // Membuat 100 bintang di latar belakang
+    createStars(1000);
+  </script>
+  
+</body>
+</html>
